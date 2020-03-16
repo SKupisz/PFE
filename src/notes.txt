@@ -1,0 +1,4 @@
+Co potrzebne?
+- Moduł do syntezy głosu (słówka)
+- ReactHtmlParser
+- Osobny folder dla plików json

@@ -1,0 +1,81 @@
+{
+    "title": "First lesson - welcomes, greetings etc.",
+    "describeForLessonsSection": "Hello guys. In this part of our course we would like to present...",
+    "preface": "Hello guys. In this part of our course we would like to present you the basics of polish language. Today we're going to learn greeting, excuses and basic words. We hope you'll enjoy this lesson a lot. So, let's start 😉",
+    "item1": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "At first, let's take a short look at what polish language is. As you may know, it's a western Slavic language, used by almost 70 million people all around the world, including almost 38 million citizens. As you can see, there are plenty of people who speak this language. And I am really glad you want to learn polish too 😁. Many people who don't speak polish are claiming it's the hardest language to learn. Even I, as a native Pole, get confused sometimes by my mother tongue. But don't worry - I'm going to do my best to transfer my knowledge to you as precisely as possible. Ok, that's all from the theory, now let's start. At first, I'll show you some of our greetings. Here are some examples of formal greetings:"
+    },
+    "item2": {
+        "type": "Table",
+        "english": ["Good morning", "Good evening"],
+        "polish": ["Dzień dobry", "Dobry wieczór"]
+    },
+    "item3":{
+        "type": "p",
+        "class": "about-polish",
+        "content": "As I said, these were the formal greeting. If you want to greet your friend, acquaintance etc., you can use informal greetings. There are plenty of them, so I have chosen the most common and put here:"
+    },
+    "item4": {
+        "type": "Table",
+        "english": ["Hello","Hi","Howdy"],
+        "polish": ["Cześć","Hej","Siema"]
+    },
+    "item5":{
+        "type": "p",
+        "class": "about-polish",
+        "content": "OK, now you know basic greetings in Polish. Now imagine a situation like this one: you're in Poland and you're going to a new school, new job, or whatever. You meet somebody new, so you greet him/her. Now it's time to present yourself. So, you say to your new acquaintance \"My name is...\" John, for example. In Polish this sentence sounds:"
+    },
+    "item6": {
+        "type": "Table",
+        "english": ["My name is John"],
+        "polish": ["Nazywam się John"]
+    },
+    "item7":{
+        "type": "p",
+        "class": "about-polish",
+        "content": "Or you can just say: "
+    },
+    "item8": {
+        "type": "Table",
+        "english": ["I'm John"],
+        "polish": ["Jestem John"]
+    },
+    "item9":{
+        "type": "p",
+        "class": "about-polish",
+        "content": "Alright. Now your interlocutor knows your name. But let's imagine you've lost balance for a moment and you've stepped on his/her foot. You feel sorry for that and you don't want to break this new relationship at the first attempt, so it will be nice if you apologize to him/her. Don't worry - just say sorry and that's all. So, let's do it - in Polish the sentence \"I'm sorry\" sounds like this:"
+    },
+    "item10": {
+        "type": "Table",
+        "english": ["I'm sorry"],
+        "polish": ["Przepraszam"]
+    },
+    "item11":{
+        "type": "p",
+        "class": "about-polish",
+        "content": "Luckily, your new friend doesn't get angry at you - that's perfect 😁. However, you don't have much time, you have to go to an extremely important meeting. Although he/she seems to be a marvellous person, you must say goodbye. Let's not overstay and do it - you don't want your boss or teacher to get mad on you. If your new relationship is kind of formal one, then just say, according to the time of the day:"
+    },
+    "item12": {
+        "type": "Table",
+        "english": ["Goodbye", "Good night"],
+        "polish": ["Do widzenia","Dobrej nocy"]
+    }
+    ,
+    "item13":{
+        "type": "p",
+        "class": "about-polish",
+        "content": "Or, if it's an unformal situation, you can use one of the phrases below 😉"
+    },
+    "item14": {
+        "type": "Table",
+        "english": ["Bye","See ya", "Hi"],
+        "polish": ["Cześć","Na razie","Elo"]
+    },
+    "item15":{
+        "type": "p",
+        "class": "about-polish",
+        "content": "And that's all for now, guys. Now you can greet in Polish, apologize and say goodbye 😁. If you enjoyed this lesson, we're pleased about that. Just stay tuned and wait for the next part of Polish For Everyone. Na razie!"
+    }
+}
