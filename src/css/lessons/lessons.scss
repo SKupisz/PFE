@@ -62,3 +62,37 @@
     }
     
 }
+@media screen and (max-width: 1000px){
+    .lessons-content{
+        width: calc(80% - 20px);
+    }
+}
+@media screen and (max-width: 670px){
+    .lesson-container{
+        .lesson-header{
+            font-size: 1.5em;
+        }
+        .lesson-describe{
+            font-size: 1em;
+        }
+    }
+}
+@media screen and (max-width: 498px){
+    .lessons-section{
+        .short-describe{
+            width: calc(90% - 20px);
+        }
+    }
+    .lessons-content{
+        margin-top: 10px;
+        width: calc(90% - 20px);
+    }
+    .lesson-container{
+        .lesson-header{
+            font-size: 1.3em;
+        }
+        .lesson-describe{
+            font-size: 0.9em;
+        }
+    } 
+}

@@ -27,3 +27,36 @@
         height: 47px;
     }
 }
+@media screen and (max-width: 1213px){
+    .main-nav{
+        width: 90%;
+        .nav-item{
+            font-size: 1em;
+        }
+    }
+}
+@media screen and (max-width: 799px){
+    .main-nav{
+        height: 94px;
+        .nav-item{
+            width: calc(40% - 60px);
+        }
+        .contact-link{
+            width: 100%;
+            display: block;
+            margin: 0;
+        }
+    }
+}
+@media screen and (max-width: 650px){
+    .main-nav{
+        height: 108px;
+        .nav-item{
+            width: 100%;
+            display: block;
+            margin: 0;
+            height: 30px;
+            margin-bottom: 6px;
+        }
+    }
+}

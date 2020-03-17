@@ -6,13 +6,13 @@ export default class Navbar extends React.Component{
         return(
             <nav className="main-nav">
                 <Link to = "/">
-                    <div className="nav-item">PFE</div>
+                    <div className="nav-item mainsite-link">PFE</div>
                 </Link>
                 <Link to = "/lessons">
-                    <div className="nav-item">Lessons</div>
+                    <div className="nav-item lessons-link">Lessons</div>
                 </Link>
                 <Link to = "/contact">
-                    <div className="nav-item">Contact</div>
+                    <div className="nav-item contact-link">Contact</div>
                 </Link>
                 
                 

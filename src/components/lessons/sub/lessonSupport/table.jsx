@@ -27,6 +27,7 @@ export default class Table extends React.Component{
             items.push(<div className="row-container">
             <div className="word-container">{this.en[i]}</div>
             <Speech rate ={0.9} textAsButton = {true} displayText = {"🔊"} voice="Google UK English Female" text={this.en[i]} />
+            <div className="word-breaker"></div>
             <div className="word-container">{this.pl[i]}</div>
             <Speech rate ={0.9} textAsButton = {true} displayText = {"🔊"} voice="Google PL Polish Female" text={this.pl[i]} />
         </div>);

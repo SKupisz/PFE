@@ -7,6 +7,7 @@
     font-size: 1.4em;
     font-family: "Oswald",sans-serif;
     letter-spacing: 0.1em;
+    padding: 10px;
 }
 .contact-ways{
     margin-top: 10px;
@@ -49,4 +50,29 @@ div[class="contact-item"]:hover{
     margin-top: 80px;
     font-family: "Lato",sans-serif;
     font-size: 1.1em;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 580px){
+    .contact-section{
+        .main-header{
+            margin-bottom: 20px;
+        }
+    }
+    .contact-content{
+        font-size: 1.2em;
+    }
+    .contact-item{
+        font-size: 0.8em;
+    }
+    .contact-ways{
+        width: calc(80% - 20px);
+    }
+    .sgk-footer{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 400px){
+    .contact-ways{
+        width: calc(90% - 20px);
+    }
 }

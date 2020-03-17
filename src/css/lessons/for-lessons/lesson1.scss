@@ -16,3 +16,23 @@
     background: none !important;
     border: 1px solid black !important;
 }
+@media screen and (max-width: 800px){
+    .about-polish,.first-paragraph{
+        font-size: 0.98em;
+    }
+}
+@media screen and (max-width: 786px){
+    .about-polish{
+        text-align: center;
+        text-indent: 0em;
+    }
+}
+@media screen and (max-width: 458px){
+    .about-polish,.first-paragraph{
+        font-size: 0.8em;
+        line-height: 2em;
+    }
+    .first-paragraph{
+        font-size: 0.79em;
+    }
+}
