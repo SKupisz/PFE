@@ -1,6 +1,7 @@
 import React from "react";
 
 import Table from "./lessonSupport/table.jsx";
+import Picture from "./lessonSupport/picture.jsx";
 
 export default class Lesson extends React.Component{
     constructor(props){
@@ -8,8 +9,6 @@ export default class Lesson extends React.Component{
         this.GetTheItems = this.GetTheItems.bind(this);
         this.FirstStep = this.FirstStep.bind(this);
         this.FirstStep();
-        this.tableEnglish = ["Hello","Hi"];
-        this.tablePolish = ["Cześć","Hej"];
     }
     FirstStep(){
         this.lessonAddress = window.location.href;
@@ -32,12 +31,21 @@ export default class Lesson extends React.Component{
         let counter = 1,item = "item"+counter;
         while(this.data.hasOwnProperty(item)){
             let tempItem = this.data[item];
-            if(tempItem["type"] != "Table"){
-                let nextElement = React.createElement(tempItem["type"],{className: tempItem["class"]},tempItem["content"]);    
-                itemsToReturn.push(nextElement);
+            if(tempItem["type"] == "Table"){
+                if(tempItem.hasOwnProperty("ifSound") == true){
+                    console.log(tempItem["ifSound"]);
+                    itemsToReturn.push(<Table english = {tempItem["english"]} polish = {tempItem["polish"]} spoken = {tempItem["ifSound"]} />);
+                }
+                else{
+                    itemsToReturn.push(<Table english = {tempItem["english"]} polish = {tempItem["polish"]} spoken = "block"/>);
+                }
+            }
+            else if(tempItem["type"] == "Picture"){
+                itemsToReturn.push(<Picture url = {tempItem["src"]} class = {tempItem["class"]}/>);
             }
             else{
-                itemsToReturn.push(<Table english = {tempItem["english"]} polish = {tempItem["polish"]}/>);
+                let nextElement = React.createElement(tempItem["type"],{className: tempItem["class"]},tempItem["content"]);    
+                itemsToReturn.push(nextElement);              
             }
             counter++;
             item = "item"+counter;

@@ -2,6 +2,7 @@ import React from "react";
 import {Route,Link} from "react-router-dom";
 
 import Lesson from "./lessonShowing.jsx";
+import SubParticles from "./lessonSupport/subParticles.jsx";
 
 export default class List extends React.Component{
     constructor(props){
@@ -24,25 +25,26 @@ export default class List extends React.Component{
             descArray.push(tempReq["describeForLessonsSection"]);
             counter++;
         }
-        titleArray = titleArray.reverse();
-        descArray = descArray.reverse();
         this.linksTitles = titleArray;
         this.linksDescs = descArray;
     }
     render(){
         this.giveTheLinks();
-        const linksItems = [];
+        let linksItems = [];
+        const colors = ["#e6ccff","#80ff9f","#8080ff"];
         let toLesson = "";
         for(let i = 0 ; i < this.linksTitles.length; i++){
             toLesson = "/lessons/"+(i+1);
             linksItems.push(
             <Link to = {toLesson}>
                 <div className="lesson-container">
+                <SubParticles color = {colors[i%3]}/>
             <header className="lesson-header">{this.linksTitles[i]}</header>
                     <div className="lesson-describe">{this.linksDescs[i]}</div>
                 </div>
             </Link>);
         }
+        linksItems = linksItems.reverse();
         return(
             <section className="lessons-content">
                 {linksItems}

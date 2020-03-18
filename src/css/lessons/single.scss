@@ -8,6 +8,26 @@
         width: calc(90% - 20px);
     }
 }
+@keyframes trapezoidGoingIn {
+    0%{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        -webikt-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    100%{
+        clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+        -webikt-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    }
+}
+@keyframes RWDtrapezoidGoingIn{
+    0%{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        -webikt-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    100%{
+        clip-path: polygon(20% 0, 80% 0%, 100% 100%, 0% 100%);
+        -webikt-clip-path: polygon(20% 0, 80% 0%, 100% 100%, 0% 100%);
+    }
+}
 
 .trapezoid-container,.first-paragraph{
     display: inline-block;
@@ -19,8 +39,13 @@
     width: 30%;
     background: url("https://cdn.pixabay.com/photo/2015/05/12/06/19/study-763571_960_720.jpg");
     background-size: cover;
-    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
-    -webikt-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    -webikt-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    transition: clip-path 0.9s;
+    animation-name: trapezoidGoingIn;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .first-paragraph{
@@ -65,6 +90,9 @@
     font-family: "Oswald",sans-serif;
     font-size: 1.3em;
 }
+.alone-container{
+    width: 90%;
+}
 .word-breaker{
     display: none;
 }
@@ -96,6 +124,7 @@
     .trapezoid-container{
         width: 90%;
         clip-path: polygon(20% 0, 80% 0%, 100% 100%, 0% 100%);
+        animation-name: RWDtrapezoidGoingIn;
     }
     .first-paragraph{
         width: calc(90% - 20px);

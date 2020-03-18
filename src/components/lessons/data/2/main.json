@@ -1,0 +1,81 @@
+{
+    "title": "Second lesson - the Polish alphabet",
+    "describeForLessonsSection": "Last time, we learnt some phrases in Polish. I hope you managed to...",
+    "preface": "Last time, we learnt some phrases in Polish. I hope you managed to learn them by heart. However, you'll not be able to speak and write Polish until you know the alphabet. So, let's get to the point 😁",
+    "item1": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "If you've ever heard about Slavic languages, then you probably know about some differences when it comes to the alphabet. And that's true - many Slavic nations, like Russians, Ukrainians, Belarusians etc. use the Cyrillic. However, western Slavs - Poles, Czechs and Slovakians - use the set of signs that is nothing more but an expanded version of the Latin alphabet. If you are scared right now, don't worry - Polish language has only 9 extra letters, and I'm sure you're going learn them easily. By the way, let me show you how we say \"an alphabet\" in Polish. There are 2 ways for it: just \"alfabet\" or, less but still used, \"abecadło\". How do we pronounce it? Check below 😉"
+    },
+    "item2": {
+        "type": "Table",
+        "english": ["Alphabet", "Alphabet"],
+        "polish": ["Alfabet", "Abecadło"]
+    },
+    "item3": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "And now, let's get finally started with the alphabet. As I've said, it contains 32 letter. Probably you've never touched upon Polish before our course - therefore, you don't even have a clue what these extra letter might look like. Don't worry - you can see full Polish alphabet in the picture below: "
+    },
+    "item4":{
+        "type": "Picture",
+        "class": "picture-support",
+        "src": "https://www.polskiinternet.com/images/alfabetpolski.jpg"
+    },
+    "item5": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "Now you might be surprised there are not 32, but up to 35 letters. How is that possible? Did I lie to you? The answer is: no - as you can see, some letters are painted grey. These are letters that were used in the past, but nowadays they have completely dissapeared from the language. So, let's take a look at the 9 extra letters. If you want to know how to pronounce them, here is a table for you:"
+    },
+    "item6": {
+        "type": "Table",
+        "english": [],
+        "polish": ["Ą", "Ć", "Ę", "Ł", "Ń", "Ó", "Ś", "Ź", "Ż"]
+    },
+    "item7": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "As you can see, it's not that hard 😉. Below, there are some words containing these letters: "
+    },
+    "item8": {
+        "type": "Table",
+        "english": ["Flour","Moth","Hand","Elbow","Horse","Pencil","World","Source","bulb"],
+        "polish": ["Mąka", "Ćma", "Ręka", "Łokieć", "Koń", "Ołówek", "Świat", "Źródło", "żarówka"]
+    },
+    "item9": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "Awesome, isn't it? Summing up, now you know the Polish alphabet. We could end right now, but there is something I have to tell you about. As in many other languages, in Polish the Digraphs also occur. But don't worry - just like other letters, it's easy to learn and remember them for a lifetime. So, let's do it - here are some examples: "
+    },
+    "item10": {
+        "type": "Table",
+        "ifSound": "none",
+        "english": [],
+        "polish": ["Ch","Cz","Dz","Dź","Dż","Rz","Sz"]
+    },
+    "item11": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "And, just like with the letters, let's practise these on specific examples: "
+    },
+    "item12": {
+        "type": "Table",
+        "english": ["Chemistry","Teapot","Bell","Crane","Jam","Radish","Wardrobe"],
+        "polish": ["Chemia","Czajnik","Dzwonek","Dźwig","Dżem","Rzodkiewka","Szafa"]
+    },
+    "item13": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "Easy? Easy - a piece of cake 😉. To end this lesson, let's take a look at the last letter. Last, but not least - here comes the only Polish trigraph: \"Dzi\". You might think now \"Oh my god, how to spell it?\". If that's true, don't tense up guys - I'll give you some examples of words containing \"Dzi\": "
+    },
+    "item14": {
+        "type": "Table",
+        "english": ["Child","Grandpa","Weird"],
+        "polish": ["Dziecko","Dziadek","Dziwny"]
+    },
+    "item15": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "And that's how we're finishing this time 😁. Let's take a short look at what we have done today. After this lesson, you've got to know the Polish alphabet, digraphs and the trigraph. You've also learnt some new words, which is awesome too. Thanks guys for your attention and see you in the next part of our course. Na razie!"
+    }
+}

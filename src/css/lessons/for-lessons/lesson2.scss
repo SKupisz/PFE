@@ -1,0 +1,27 @@
+.picture-support{
+    width: calc(50% - 20px);
+    padding: 10px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #111;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.picture-support:hover{
+    box-shadow: 1px 1px 20px #111;
+    filter: brightness(120%);
+}
+@media screen and (max-width: 658px){
+    .picture-support{
+        width: calc(70% - 20px);
+    }
+}
+@media screen and (max-width: 375px){
+    .picture-support{
+        width: calc(90% - 20px);
+    }
+}
+

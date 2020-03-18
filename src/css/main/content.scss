@@ -1,3 +1,15 @@
+.main-particles{
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    height: 400px;
+    text-align: center;
+}
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
 .main-header{
     width: calc(80% - 20px);
     padding: 10px;

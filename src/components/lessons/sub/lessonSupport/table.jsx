@@ -6,6 +6,7 @@ export default class Table extends React.Component{
         super(props);
         this.en = this.props.english;
         this.pl = this.props.polish;
+        this.if = this.props.spoken;
     }
     render(){
         const items = [];
@@ -23,14 +24,31 @@ export default class Table extends React.Component{
               },
             }
           };
-        for(let i = 0 ; i < this.en.length; i++){
-            items.push(<div className="row-container">
-            <div className="word-container">{this.en[i]}</div>
-            <Speech rate ={0.9} textAsButton = {true} displayText = {"🔊"} voice="Google UK English Female" text={this.en[i]} />
-            <div className="word-breaker"></div>
-            <div className="word-container">{this.pl[i]}</div>
-            <Speech rate ={0.9} textAsButton = {true} displayText = {"🔊"} voice="Google PL Polish Female" text={this.pl[i]} />
-        </div>);
+        for(let i = 0 ; i < this.pl.length; i++){
+            if(i < this.en.length){
+                items.push(<div className="row-container">
+                <div className="word-container">{this.en[i]}</div>
+                <Speech rate ={0.9} textAsButton = {true} displayText = {"🔊"} voice="Google UK English Female" text={this.en[i]} />
+                <div className="word-breaker"></div>
+                <div className="word-container">{this.pl[i]}</div>
+                <Speech rate ={0.9} textAsButton = {true} displayText = {"🔊"} voice="Google polski" text={this.pl[i]} />
+            </div>);
+            }
+            else{
+                if(this.if == "block"){
+                    items.push(<div className="row-container">
+                    <div className="word-container alone-container">{this.pl[i]}</div>
+                    <Speech rate ={0.9} textAsButton = {true} displayText = {"🔊"} voice="Google polski" text={this.pl[i]} />
+                </div>);  
+                }
+                else{
+                    items.push(<div className="row-container">
+                    <div className="word-container alone-container">{this.pl[i]}</div>
+                </div>);                      
+                }
+             
+            }
+           
         }
         return(
             <div className="language-table">

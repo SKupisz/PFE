@@ -12,9 +12,13 @@
     height: 50px;
     font-size: 1.1em;
     font-family: "Oswald",sans-serif;
-    border-radius: 50% !important;
+    border-radius: 10px !important;
     background: none !important;
     border: 1px solid black !important;
+    transition: all 0.2s;
+}
+.rs-play:hover{
+    border-radius: 50% !important;
 }
 @media screen and (max-width: 800px){
     .about-polish,.first-paragraph{
