@@ -20,6 +20,10 @@
     border: 1px solid #aaa;
     padding: 10px;
     margin-bottom: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
 .contact-item{
     width: calc(100% - 20px);
@@ -34,7 +38,7 @@
 div[class="contact-item"]:hover{
     filter: brightness(120%);
 }
-.contact-item:nth-child(1){
+.contact-item:nth-child(1) > div{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }

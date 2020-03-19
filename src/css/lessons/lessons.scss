@@ -76,6 +76,12 @@
     .lessons-content{
         width: calc(80% - 20px);
     }
+    .lesson-container{
+        .sub-particles{
+            width: calc(80% - 30px);
+        }
+    }
+
 }
 @media screen and (max-width: 670px){
     .lesson-container{
@@ -84,6 +90,9 @@
         }
         .lesson-describe{
             font-size: 1em;
+        }
+        .sub-particles{
+            width: calc(82% - 30px);
         }
     }
 }
@@ -103,6 +112,9 @@
         }
         .lesson-describe{
             font-size: 0.9em;
+        }
+        .sub-particles{
+            width: calc(90% - 30px);
         }
     } 
 }
