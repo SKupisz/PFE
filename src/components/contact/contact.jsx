@@ -10,8 +10,10 @@ export default class Contact extends React.Component{
                     <a href="https://www.facebook.com/SGK-news-1990120751057327/" target="_blank" rel="noopener noreferrer">
                         <div className="contact-item">Facebook</div>
                     </a>
-                    <div className="contact-item">Instagram</div>
-                    <div className="contact-item">Or just write an email to us</div>
+                    <a href="https://www.instagram.com/sgknewsofficial/" target="_blank" rel="noopener noreferrer">
+                        <div className="contact-item instagram-item">Instagram</div>
+                    </a>
+                    <div className="contact-item">Or just write an email to us on sgk-news@wp.pl</div>
                 </section>
                 <footer className="sgk-footer">© 2020 SGK News</footer>
             </div>
