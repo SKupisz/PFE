@@ -1,0 +1,101 @@
+{
+    "title": "Third lesson - present simple tense",
+    "describeForLessonsSection": "Alright. Now it's time to practise what we've learnt and...",
+    "preface": "Alright. Now it's time to practise what we've learnt and start speaking. Today I'm going to show you how to create a sentence in Polish and the Polish counterpart for present simple. Let's get to it 😉",
+    "item1": {
+        "type": "p",
+        "class": "about-polish",
+        "content": "At first, let me show you the word order in a sentence. It'll not be harsh - it's simillar to English. Below you can easily check that I'm not lying - the word order is as simple as \"Dzień dobry\":"
+    },
+    "item2": {
+        "type": "presenting",
+        "class": "presenting-table",
+        "items": {
+            "classes": ["sub-item","separator-item","verb-item","separator-item","obj-item"],
+            "contents": ["subject","+","verb","+","object"]
+        }
+    },
+    "item3": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "And now in Polish: "
+    },
+    "item4": {
+        "type": "presenting",
+        "class": "presenting-table",
+        "items": {
+            "classes": ["sub-item","separator-item","verb-item","separator-item","obj-item"],
+            "contents": ["podmiot","+","orzeczenie","+","reszta zdania"]
+        }
+    },
+    "item5": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "Easy? Easy, guys. That was the first step into Polish grammar. Now, let's start with learning some tenses. Let me show you the counterpart for English present simple tense. In Polish, that is: "
+    },
+    "item6": {
+        "type": "Table",
+        "english": ["Present Simple Tense", "Tense / Time", "Present","Simple"],
+        "polish": ["Czas teraźniejszy prosty", "Czas","Teraźniejszy","Prosty"]
+    },
+    "item7": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "The usage of the tense I'm talking about is simillar to the English one. With \"Czas teraźniejszy prosty\", we can describe our habits or nature etc. What you must know is that this tense can also be used as the present continous tense, which can be confusing for you at the beginning, but you'll get used to it."
+    },
+    "item8": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "Now, let's learn the conjugation - else, how could you even think of practising the Present Simple Tense in Polish? If you're stressed now, don't worry guys - I will show you step by step how to do that."
+    },
+    "item9": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "To learn this conjugation, we will use the verb \"to make\", in Polish: "
+    },
+    "item10": {
+        "type": "Table",
+        "english": ["To make"],
+        "polish": ["Robić"]
+    },
+    "item11": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "In this example, let me show you how to conjugate the regular verbs in the \"Czas teraźniejszy prosty\" in Polish: "
+    },
+    "item12": {
+        "type": "Table",
+        "ifSound": "none",
+        "english": ["I make", "You make", "He makes", "She makes", "It makes","We make","You make","They make","They make (in context of women)"],
+        "polish": ["Ja rob<label class = 'highligth-red'>ię</label>",
+            "Ty rob<label class = 'highligth-red'>isz</label>", 
+            "On rob<label class = 'highligth-red'>i</label>"," Ona rob<label class = 'highligth-red'>i</label>",
+            "Ono rob<label class = 'highligth-red'>i</label>", "My rob<label class = 'highligth-red'>imy</label>",
+            "Wy rob<label class = 'highligth-red'>icie</label>","Oni rob<label class = 'highligth-red'>ią</label",
+            "One rob<label class = 'highligth-red'>ią</label>"]
+    },
+    "item13": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "As you can see, it's not hard. For making your learning easier, I highlighted the endings on red, so you can see how it is done in Polish."
+    },
+    "item14": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "Now, it's time to learn some irregular verbs. Maybe let's not complicate that much and see how the verb \"to be\" is conjugated in Polish. So, let's go: "
+    },
+    "item15": {
+        "type": "Table",
+        "ifSound": "none",
+        "english": ["To be","I am","You are","He is", "She is","It is","We are","You are","They are","They are (in context of women)"],
+        "polish": ["Być","Ja jest<label class = 'highligth-red'>em</label>","Ty jest<label class = 'highligth-red'>eś</label>",
+            "On jest","Ona jest","Ono jest", "My jest<label class = 'highligth-red'>eśmy</label>", "Wy jest<label class = 'highligth-red'>eście</label>", 
+            "Oni <label class = 'highligth-red'>są</label>", "One <label class = 'highligth-red'>są</label>"]
+    },
+    "item16": {
+        "type": "p",
+        "class":"about-polish",
+        "content": "Step by step, we're going to learn newer and newer verb and their conjugations in the next lessons. However, if you are hungry for more, let me invite you to go to <a href = 'https://cooljugator.com/pl'>cooljugator site</a>, where you've got the list of the most important Polish verbs and their conjugations. That's all for now - Na razie!"
+    }
+
+}

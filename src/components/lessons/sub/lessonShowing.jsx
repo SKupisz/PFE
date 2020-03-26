@@ -1,5 +1,6 @@
 import React from "react";
 import Loader from "react-loader";
+import ReactHtmlParser from "react-html-parser";
 
 import Table from "./lessonSupport/table.jsx";
 import Picture from "./lessonSupport/picture.jsx";
@@ -40,7 +41,6 @@ export default class Lesson extends React.Component{
             let tempItem = this.data[item];
             if(tempItem["type"] == "Table"){
                 if(tempItem.hasOwnProperty("ifSound") == true){
-                    console.log(tempItem["ifSound"]);
                     itemsToReturn.push(<Table english = {tempItem["english"]} polish = {tempItem["polish"]} spoken = {tempItem["ifSound"]} />);
                 }
                 else{
@@ -50,8 +50,17 @@ export default class Lesson extends React.Component{
             else if(tempItem["type"] == "Picture"){
                 itemsToReturn.push(<Picture url = {tempItem["src"]} class = {tempItem["class"]}/>);
             }
+            else if(tempItem["type"] == "presenting"){
+                let len = tempItem["items"]["classes"].length;
+                let elements = [];
+                for(let i = 0; i < len; i++){
+                    elements.push(<div className={"table-item "+tempItem["items"]["classes"][i]}>{tempItem["items"]["contents"][i]}</div>);
+                }
+                let TableElems = React.createElement("div",{className: tempItem["class"]}, elements);
+                itemsToReturn.push(TableElems);
+            }
             else{
-                let nextElement = React.createElement(tempItem["type"],{className: tempItem["class"]},tempItem["content"]);    
+                let nextElement = React.createElement(tempItem["type"],{className: tempItem["class"]},ReactHtmlParser(tempItem["content"]));    
                 itemsToReturn.push(nextElement);              
             }
             counter++;
